@@ -1,0 +1,41 @@
+POST http://localhost:8081/api/v1/users HTTP/1.1
+content-type: application/json
+
+{
+    "username": "hono",
+    "password": "password",
+    "email": "hono@mailf.me",
+    "type": "ADMIN"
+}
+
+###
+
+POST http://localhost:8081/api/v1/users/authenticate HTTP/1.1
+content-type: application/json
+
+{
+    "username": "hono",
+    "password": "password"
+}
+
+###
+# valid user
+###
+POST http://localhost:8081/api/v1/users/authenticate HTTP/1.1
+content-type: application/json
+
+{
+    "username": "admin",
+    "password": "P@$$w0rd"
+}
+
+###
+# unvalid user
+###
+POST http://localhost:8081/api/v1/users/authenticate HTTP/1.1
+content-type: application/json
+
+{
+    "username": "test",
+    "password": "test"
+}
