@@ -9,6 +9,13 @@ git clone --recursive https://github.com/honohunter/OpenEmp.git
 cd OpenEmp 
 npm install
 ```
+### Build
+
+```shell script
+lerna init
+lerna bootstrap
+```
+
 ### Run
 ```shell script
 npm start
