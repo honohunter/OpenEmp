@@ -2,10 +2,10 @@ POST http://localhost:8081/api/v1/users HTTP/1.1
 content-type: application/json
 
 {
-    "username": "hono",
-    "password": "password",
-    "email": "hono@mailf.me",
-    "type": "ADMIN"
+    "username": "user",
+    "password": "user",
+    "email": "user@user.me",
+   
 }
 
 ###

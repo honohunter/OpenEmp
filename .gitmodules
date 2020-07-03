@@ -19,3 +19,9 @@
 [submodule "packages/openemp-ui-template"]
 	path = packages/openemp-ui-template
 	url = https://github.com/honohunter/openemp-ui-template.git
+[submodule "openemp-ui-core"]
+	path = openemp-ui-core
+	url = https://github.com/honohunter/openemp-ui-core.git
+[submodule "packages/openemp-ui-core"]
+	path = packages/openemp-ui-core
+	url = https://github.com/honohunter/openemp-ui-core.git

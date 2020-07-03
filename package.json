@@ -11,7 +11,7 @@
     "lerna": "^3.21.0"
   },
   "scripts": {
-    "start": "lerna run --parallel start"
-  },
-  "dependencies": {}
+    "start": "lerna run --parallel start",
+    "build": "lerna run build"
+  }
 }
